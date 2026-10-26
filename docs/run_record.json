@@ -1,0 +1,46 @@
+{
+  "status": "computed_pending_audit",
+  "started_at": "2026-10-26T15:22:29.975461+08:00",
+  "python": "3.13.17",
+  "platform": "macOS-26.6-arm64-arm-64bit-Mach-O",
+  "numpy": "2.4.4",
+  "pandas": "3.0.3",
+  "sklearn": "1.9.0",
+  "fixed_method_reproduction": true,
+  "hyperparameter_search": false,
+  "independent_validation": false,
+  "bootstrap_repetitions_per_year": 2000,
+  "stages_seconds": {
+    "prepare": 2.7317317920023925,
+    "W1_fit_select": 3.748246499999368,
+    "W1_bootstrap": 6.07212270799937,
+    "W2_fit_select": 6.781075166996743,
+    "W2_bootstrap": 10.704700374997628,
+    "2016_seen_fit_select": 7.2408117090017186,
+    "2016_seen_bootstrap": 8.205845124997722,
+    "sql": 21.438401249994058
+  },
+  "source_code_sha256": {
+    "src/bootstrap.py": "b7f3a1b9624621094d4633b4bcaebcaebb4a6ba6095918c5df00b23a3c912e11",
+    "src/models.py": "09186a8d309ccc2e68dd6cfac597999131833ff3085db4c6596a7c01da94e10c",
+    "src/phase3/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/phase3/preprocessing.py": "cb53e18a64c8c152a6cde3ab5a1740386c987aec8d9f0b1a36338a1a82ea789c",
+    "src/prepare.py": "984be2e217e23a84d74a5cff91ab4c1db3677473b0d3e96d7b7f056c45de91b7",
+    "src/run.py": "e09237971772b5174ed1c66604adb1cd2df4d40542c116e13965865919f3aa08",
+    "src/selection.py": "349ed66a7f51fe516f5a721b5dc62b2a845cce354ad10a8ee80d1bcf0a2f8ec5",
+    "src/sql_reproduce.py": "8cfba5601fac5a291748fd6b8aca55de406cbf2af29b0ab09543cb2da2188d1c",
+    "src/strategy_income_model.py": "c98342b36fce8e24958e7767a50a2f095dd18e347cdefb642544c9392ad037ed"
+  },
+  "elapsed_seconds": 66.97704525000154,
+  "sql_row_counts": {
+    "01_status_distribution": 99,
+    "02_maturity": 21,
+    "03_group_risk": 270,
+    "04_group_contributions": 180,
+    "05_decomposition_summary": 2,
+    "06_loan_strategy_marks": 891702,
+    "07_primary_metrics": 9,
+    "08_strategy_cross": 36,
+    "09_group_exchange": 810
+  }
+}

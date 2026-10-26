@@ -1,0 +1,1091 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "computation completed",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column window",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values window",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column primary",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values primary",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column target_retained_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values target_retained_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column N",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values N",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column B",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values B",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column G",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values G",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column K",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values K",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column R",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values R",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column B_keep",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values B_keep",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column B_remove",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values B_remove",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column G_keep",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values G_keep",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column G_remove",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values G_remove",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column retained_count",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values retained_count",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column removed_paid_count",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values removed_paid_count",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column actual_retained_ratio_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values actual_retained_ratio_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column actual_retained_ratio_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values actual_retained_ratio_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column actual_retained_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values actual_retained_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column retained_chargeoff_ratio_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values retained_chargeoff_ratio_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column retained_chargeoff_ratio_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values retained_chargeoff_ratio_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column retained_chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values retained_chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column removed_chargeoff_ratio_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values removed_chargeoff_ratio_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column removed_chargeoff_ratio_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values removed_chargeoff_ratio_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column removed_chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values removed_chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column chargeoff_capture_rate_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values chargeoff_capture_rate_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column chargeoff_capture_rate_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values chargeoff_capture_rate_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column chargeoff_capture_rate",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values chargeoff_capture_rate",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column paid_exclusion_rate_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values paid_exclusion_rate_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column paid_exclusion_rate_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values paid_exclusion_rate_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column paid_exclusion_rate",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values paid_exclusion_rate",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column paid_share_among_removed_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values paid_share_among_removed_numerator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column paid_share_among_removed_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values paid_share_among_removed_denominator",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: column paid_share_among_removed",
+      "passed": true
+    },
+    {
+      "check": "36 scenario metrics: values paid_share_among_removed",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column evaluation_count",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values evaluation_count",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column retained_count",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values retained_count",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column point_difference",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values point_difference",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column lower",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values lower",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column upper",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values upper",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column point_difference_pp",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values point_difference_pp",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column lower_pp",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values lower_pp",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column upper_pp",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values upper_pp",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column effective_repetitions",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values effective_repetitions",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column seed",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values seed",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: column independent_confirmation",
+      "passed": true
+    },
+    {
+      "check": "9 bootstrap intervals: values independent_confirmation",
+      "passed": true
+    },
+    {
+      "check": "SQL 01_status_distribution: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 01_status_distribution: column loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 01_status_distribution: values loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column total_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values total_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column fully_paid_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values fully_paid_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column charged_off_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values charged_off_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column terminal_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values terminal_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column nonterminal_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values nonterminal_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column terminal_share",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values terminal_share",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column snapshot_confirmed",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values snapshot_confirmed",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: column contractual_observation_confirmed",
+      "passed": true
+    },
+    {
+      "check": "SQL 02_maturity: values contractual_observation_confirmed",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column purpose_group",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values purpose_group",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column fico_band",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values fico_band",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column charged_off_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values charged_off_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column fully_paid_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values fully_paid_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column population_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values population_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column population_share",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values population_share",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: column risk_estimate_unstable",
+      "passed": true
+    },
+    {
+      "check": "SQL 03_group_risk: values risk_estimate_unstable",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column previous_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values previous_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column later_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values later_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column purpose_group",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values purpose_group",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column fico_band",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values fico_band",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column n_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values n_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column b_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values b_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column total_count_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values total_count_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column n_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values n_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column b_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values b_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column total_count_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values total_count_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column w_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values w_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column w_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values w_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column r_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values r_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column r_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values r_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column support_status",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values support_status",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column S_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values S_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column I_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values I_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column A_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values A_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column T_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values T_g",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column S_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values S_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column I_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values I_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column A_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values A_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: column T_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 04_group_contributions: values T_g_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column previous_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values previous_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column later_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values later_year",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column N_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values N_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column N_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values N_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column B_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values B_0",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column B_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values B_1",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column S",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values S",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column I",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values I",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column A",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values A",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column total_T",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values total_T",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column new_group_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values new_group_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column known_counterfactual",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values known_counterfactual",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column delta_R",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values delta_R",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column R_cf",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values R_cf",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column R_cf_estimable",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values R_cf_estimable",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column residual",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values residual",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column S_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values S_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column I_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values I_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: column A_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 05_decomposition_summary: values A_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column N",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values N",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column B",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values B",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column K",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values K",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column B_keep",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values B_keep",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column B_remove",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values B_remove",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column G_remove",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values G_remove",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column actual_retained_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values actual_retained_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column retained_chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values retained_chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column chargeoff_capture_rate",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values chargeoff_capture_rate",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: column paid_exclusion_rate",
+      "passed": true
+    },
+    {
+      "check": "SQL 07_primary_metrics: values paid_exclusion_rate",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: column loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: values loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: column charged_off_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: values charged_off_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: column fully_paid_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: values fully_paid_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: column population_share",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: values population_share",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: column chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 08_strategy_cross: values chargeoff_ratio",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: complete unique keys",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column purpose_group",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values purpose_group",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column fico_band",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values fico_band",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values loan_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column swap_in_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values swap_in_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column swap_out_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values swap_out_count",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column swap_in_bad",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values swap_in_bad",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column swap_out_bad",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values swap_out_bad",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column retained_bad_difference",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values retained_bad_difference",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: column contribution_pp",
+      "passed": true
+    },
+    {
+      "check": "SQL 09_group_exchange: values contribution_pp",
+      "passed": true
+    },
+    {
+      "check": "database integrity",
+      "passed": true
+    },
+    {
+      "check": "database foreign keys",
+      "passed": true
+    },
+    {
+      "check": "891702 unique loan marks",
+      "passed": true
+    },
+    {
+      "check": "2014: equal retained quantities",
+      "passed": true
+    },
+    {
+      "check": "2015: equal retained quantities",
+      "passed": true
+    },
+    {
+      "check": "2016: equal retained quantities",
+      "passed": true
+    }
+  ],
+  "check_count": 271,
+  "float_absolute_tolerance": 1e-12
+}

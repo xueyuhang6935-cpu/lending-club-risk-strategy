@@ -1,0 +1,14 @@
+{
+  "source_filename": "LC_loans_granting_model_dataset (1).csv",
+  "source_sha256": "207d65b2712f775a91404496ab27c786ac0da6b0f977f849e6d5d8149e925acc",
+  "total_rows": 1347681,
+  "split_counts": {
+    "train": 829347,
+    "validation": 293057,
+    "sealed": 225277
+  },
+  "source_order": "source_row ascending (matches original MySQL reads)",
+  "label_definition": "publisher Default: 1 Charged Off, 0 Fully Paid; no new status filtering",
+  "sealed_2017_2018_features_evaluated": false,
+  "independent_validation": false
+}

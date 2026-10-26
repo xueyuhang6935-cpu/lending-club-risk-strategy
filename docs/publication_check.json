@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "tracked_file_count": 55,
+  "findings": [],
+  "pdf_text_and_metadata_review": "6+1 pages checked separately; no local paths",
+  "excluded": "raw loan data, per-loan outputs, databases, credentials, old plans, caches, LaTeX intermediates"
+}

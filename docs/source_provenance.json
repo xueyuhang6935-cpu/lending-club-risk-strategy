@@ -1,0 +1,216 @@
+[
+  {
+    "source": "phase3/preprocessing.py",
+    "target": "src/phase3/preprocessing.py",
+    "source_sha256": "0127a985ec8ed20f720ba79a4e6ad76b4d9dd2f6db6363b9ab5c5392492152ac",
+    "target_sha256": "cb53e18a64c8c152a6cde3ab5a1740386c987aec8d9f0b1a36338a1a82ea789c"
+  },
+  {
+    "source": "strategy_income_model.py",
+    "target": "src/strategy_income_model.py",
+    "source_sha256": "c98342b36fce8e24958e7767a50a2f095dd18e347cdefb642544c9392ad037ed",
+    "target_sha256": "c98342b36fce8e24958e7767a50a2f095dd18e347cdefb642544c9392ad037ed"
+  },
+  {
+    "source": "phase3/train_logistic.py",
+    "functions": [
+      "build_pipeline"
+    ],
+    "source_sha256": "c9314c4a331b71f7d23211d8c1bfbb8d4925ddb7c9351f4b80f7caad0141bc57",
+    "target": "src/models.py",
+    "target_sha256": "09186a8d309ccc2e68dd6cfac597999131833ff3085db4c6596a7c01da94e10c"
+  },
+  {
+    "source": "run_strategy_comparison.py",
+    "functions": [
+      "rank_scores",
+      "selection_metrics"
+    ],
+    "source_sha256": "5fc9db855c367e23d38f7435568307ce7fa3001c73581235e1bc16d65aaf2c64",
+    "target": "src/selection.py",
+    "target_sha256": "349ed66a7f51fe516f5a721b5dc62b2a845cce354ad10a8ee80d1bcf0a2f8ec5"
+  },
+  {
+    "source": "strategy_exchange_bootstrap.py",
+    "functions": [
+      "weighted_bad_count"
+    ],
+    "source_sha256": "26281400112c56a195f16cb48dd08455dfe5ec3636bca930fd28c97a11d5c6d9",
+    "target": "src/bootstrap.py",
+    "target_sha256": "b7f3a1b9624621094d4633b4bcaebcaebb4a6ba6095918c5df00b23a3c912e11"
+  },
+  {
+    "source": "final_delivery/sql/01_status_distribution.sql",
+    "target": "sql/01_status_distribution.sql",
+    "source_sha256": "f1ff66323a90e65d132d0139c7cfba67a70252e94bde6c248a8855ae18419707",
+    "target_sha256": "f1ff66323a90e65d132d0139c7cfba67a70252e94bde6c248a8855ae18419707"
+  },
+  {
+    "source": "final_delivery/sql/02_maturity.sql",
+    "target": "sql/02_maturity.sql",
+    "source_sha256": "86e1e49c6ab297928be18a9642ab9a3448892790c1b1fcb5aca2769a9039b88f",
+    "target_sha256": "86e1e49c6ab297928be18a9642ab9a3448892790c1b1fcb5aca2769a9039b88f"
+  },
+  {
+    "source": "final_delivery/sql/03_group_risk.sql",
+    "target": "sql/03_group_risk.sql",
+    "source_sha256": "cf0f8b1470d300b93ab54cfbe3d1410e00877cbb0d9362c7526a13687af3af1b",
+    "target_sha256": "cf0f8b1470d300b93ab54cfbe3d1410e00877cbb0d9362c7526a13687af3af1b"
+  },
+  {
+    "source": "final_delivery/sql/04_group_contributions.sql",
+    "target": "sql/04_group_contributions.sql",
+    "source_sha256": "299cd180e585c0f3498e68a20c173d9eda57c5c4691932bce1d6d8600594e6fd",
+    "target_sha256": "299cd180e585c0f3498e68a20c173d9eda57c5c4691932bce1d6d8600594e6fd"
+  },
+  {
+    "source": "final_delivery/sql/05_decomposition_summary.sql",
+    "target": "sql/05_decomposition_summary.sql",
+    "source_sha256": "37c65e6bb3cd84dbcd396e509b96ad7baf285db0e74b421288007ebc1cb927e3",
+    "target_sha256": "37c65e6bb3cd84dbcd396e509b96ad7baf285db0e74b421288007ebc1cb927e3"
+  },
+  {
+    "source": "final_delivery/sql/06_loan_strategy_marks.sql",
+    "target": "sql/06_loan_strategy_marks.sql",
+    "source_sha256": "a5efeab099122ce7ad7cddb6b29e1ee994b245a32e28a2ece5c6791d4f0248c8",
+    "target_sha256": "a5efeab099122ce7ad7cddb6b29e1ee994b245a32e28a2ece5c6791d4f0248c8"
+  },
+  {
+    "source": "final_delivery/sql/07_primary_metrics.sql",
+    "target": "sql/07_primary_metrics.sql",
+    "source_sha256": "2db99bbb93eb92b8fbc606ef733d3cfc120487aa96504b6f7ea4303a61aaba39",
+    "target_sha256": "2db99bbb93eb92b8fbc606ef733d3cfc120487aa96504b6f7ea4303a61aaba39"
+  },
+  {
+    "source": "final_delivery/sql/08_strategy_cross.sql",
+    "target": "sql/08_strategy_cross.sql",
+    "source_sha256": "e46d5b0fffc4fcf03777efb767f30b62774c496ef4d0579a07588d529c4ea139",
+    "target_sha256": "e46d5b0fffc4fcf03777efb767f30b62774c496ef4d0579a07588d529c4ea139"
+  },
+  {
+    "source": "final_delivery/sql/09_group_exchange.sql",
+    "target": "sql/09_group_exchange.sql",
+    "source_sha256": "d33afa30ff3b2b8aae19b028a9b39dbb81b338209e560cc29488fd189e2a0150",
+    "target_sha256": "d33afa30ff3b2b8aae19b028a9b39dbb81b338209e560cc29488fd189e2a0150"
+  },
+  {
+    "source": "final_delivery/sql/schema.sql",
+    "target": "sql/schema.sql",
+    "source_sha256": "dddf19877a317b4e8306520fa8faca833058706440e8c31e1c645e2b6c0c829e",
+    "target_sha256": "dddf19877a317b4e8306520fa8faca833058706440e8c31e1c645e2b6c0c829e"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/六页项目展示.pdf",
+    "target": "docs/六页项目展示.pdf",
+    "source_sha256": "d6c674cb63769fbf60958f4cd7b088820fc3bf02840865066b058013d803624e",
+    "target_sha256": "d6c674cb63769fbf60958f4cd7b088820fc3bf02840865066b058013d803624e"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/策略评审摘要.pdf",
+    "target": "docs/策略评审摘要.pdf",
+    "source_sha256": "c9c67569d24df827231750bc6a5b78b0b97598ce5ea7afb91fe68ed5948feb55",
+    "target_sha256": "c9c67569d24df827231750bc6a5b78b0b97598ce5ea7afb91fe68ed5948feb55"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/监控与处置方案.md",
+    "target": "docs/监控与处置方案.md",
+    "source_sha256": "d4f61671c1a55ada96896d69591cf1ace75cc4f96796cda90a4a62b5c49cb151",
+    "target_sha256": "d4f61671c1a55ada96896d69591cf1ace75cc4f96796cda90a4a62b5c49cb151"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/监控指标字典.csv",
+    "target": "docs/监控指标字典.csv",
+    "source_sha256": "59d68a794929b103665a210b2aee726ed9d5ac15109c0e9fb92599f71bd76a9a",
+    "target_sha256": "59d68a794929b103665a210b2aee726ed9d5ac15109c0e9fb92599f71bd76a9a"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/01_status_distribution.csv",
+    "target": "results/reference/sql/01_status_distribution.csv",
+    "source_sha256": "eca2a3a2a955c7fafcae194e3e17b21ff945d1209d5c0067870547da01b9190a",
+    "target_sha256": "eca2a3a2a955c7fafcae194e3e17b21ff945d1209d5c0067870547da01b9190a"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/02_maturity.csv",
+    "target": "results/reference/sql/02_maturity.csv",
+    "source_sha256": "9e7ec589d6c8c0d3ae555065f2ab70490cec3d5afd667afc0d59bc48421d639a",
+    "target_sha256": "9e7ec589d6c8c0d3ae555065f2ab70490cec3d5afd667afc0d59bc48421d639a"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/03_group_risk.csv",
+    "target": "results/reference/sql/03_group_risk.csv",
+    "source_sha256": "58162c2ec31b42ec66eafd2301bbb9c1e9939d3fdb3a8f55c14fa4892f2c6932",
+    "target_sha256": "58162c2ec31b42ec66eafd2301bbb9c1e9939d3fdb3a8f55c14fa4892f2c6932"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/04_group_contributions.csv",
+    "target": "results/reference/sql/04_group_contributions.csv",
+    "source_sha256": "aaaa5e53db3261cd30df922418633a6888f938653518b1fee8f9615403524cc5",
+    "target_sha256": "aaaa5e53db3261cd30df922418633a6888f938653518b1fee8f9615403524cc5"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/05_decomposition_summary.csv",
+    "target": "results/reference/sql/05_decomposition_summary.csv",
+    "source_sha256": "2bc00f2d9bf440a913627d41946aae10d3dd52957db983b939a1ca342c115627",
+    "target_sha256": "2bc00f2d9bf440a913627d41946aae10d3dd52957db983b939a1ca342c115627"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/07_primary_metrics.csv",
+    "target": "results/reference/sql/07_primary_metrics.csv",
+    "source_sha256": "32d4b897b71365cba23f004ebb48a96bd769002d525ff9b25b396b665aeff57f",
+    "target_sha256": "32d4b897b71365cba23f004ebb48a96bd769002d525ff9b25b396b665aeff57f"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/08_strategy_cross.csv",
+    "target": "results/reference/sql/08_strategy_cross.csv",
+    "source_sha256": "e3f5ccd162b68f46d56e9beb772571b5b6b4dcd6eaac8e749307d8a63bfac8db",
+    "target_sha256": "e3f5ccd162b68f46d56e9beb772571b5b6b4dcd6eaac8e749307d8a63bfac8db"
+  },
+  {
+    "source": "outputs/final_project_delivery/20261024-213245-322469/results/09_group_exchange.csv",
+    "target": "results/reference/sql/09_group_exchange.csv",
+    "source_sha256": "7fb41a17f6c33020c551515990589ebbb58594823294a159cef3ff7f45ee3281",
+    "target_sha256": "7fb41a17f6c33020c551515990589ebbb58594823294a159cef3ff7f45ee3281"
+  },
+  {
+    "source": "outputs/strategy_comparison/20261022-171318-610291/scenario_metrics.csv",
+    "target": "results/reference/scenario_metrics.csv",
+    "source_sha256": "2c21de6581056910a6da7bc2ce964133533fc6af6ccb5bf8ea1dc6f37e1de3b7",
+    "target_sha256": "2c21de6581056910a6da7bc2ce964133533fc6af6ccb5bf8ea1dc6f37e1de3b7"
+  },
+  {
+    "source": "outputs/strategy_comparison/20261022-171318-610291/primary_metrics.csv",
+    "target": "results/reference/primary_metrics.csv",
+    "source_sha256": "fdd95cd085b6f870f2a46bea1f639bff649576264a9db7f9b9070be4267989b8",
+    "target_sha256": "fdd95cd085b6f870f2a46bea1f639bff649576264a9db7f9b9070be4267989b8"
+  },
+  {
+    "source": "outputs/strategy_comparison/20261022-171318-610291/ranking_metrics.csv",
+    "target": "results/reference/ranking_metrics.csv",
+    "source_sha256": "10e0ef5f4def0621dd437de08ea802d1a584e91d4400188b456de0e00ac44954",
+    "target_sha256": "10e0ef5f4def0621dd437de08ea802d1a584e91d4400188b456de0e00ac44954"
+  },
+  {
+    "source": "outputs/paired_bootstrap_acceptance/20261024-210134-850129/bootstrap_interval_summary.csv",
+    "target": "results/reference/bootstrap_intervals.csv",
+    "source_sha256": "ba897e168fa7394ddc989275d29ae6ee5a633a938c112e10ef90e2cf5b6ce3f0",
+    "target_sha256": "ba897e168fa7394ddc989275d29ae6ee5a633a938c112e10ef90e2cf5b6ce3f0"
+  },
+  {
+    "source": "outputs/phase1/20261014-161356-466597/字段审核表.csv",
+    "target": "docs/字段审核表.csv",
+    "source_sha256": "a1f80fef4134bc8f50796a99a24409777194648bdfa0a5fd9b7787c9be43c90f",
+    "target_sha256": "a1f80fef4134bc8f50796a99a24409777194648bdfa0a5fd9b7787c9be43c90f"
+  },
+  {
+    "source": "outputs/strategy_comparison_preparation/20261022-165441-256223/upstream_development_status_counts.csv",
+    "source_sha256": "618b60b13d8d3864ea8941e83e2c5da0b5bda00cc25457c0988c01c4bd91663e",
+    "target": "data/cohort_status.csv",
+    "note": "published aggregate only"
+  },
+  {
+    "source": "outputs/strategy_decision/20261022-190808-838964/complete_cohort_status_counts.csv",
+    "source_sha256": "6df12a05a4b5eb5224b4ca9df958406aafd15a9984eab601081923557b747c4a",
+    "target": "data/cohort_status.csv",
+    "note": "published aggregate only"
+  }
+]
