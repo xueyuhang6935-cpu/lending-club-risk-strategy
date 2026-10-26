@@ -1,0 +1,73 @@
+{
+  "purpose_order": [
+    "car",
+    "credit_card",
+    "debt_consolidation",
+    "educational",
+    "home_improvement",
+    "house",
+    "major_purchase",
+    "medical",
+    "moving",
+    "other",
+    "renewable_energy",
+    "small_business",
+    "vacation",
+    "wedding",
+    "__MISSING__"
+  ],
+  "main": {
+    "fields": [
+      "purpose_group",
+      "fico_band"
+    ],
+    "purpose": "全部清洗后原用途，缺失独立",
+    "fico_bands": [
+      {
+        "group": "F1",
+        "lower": 300,
+        "upper": 660,
+        "lower_inclusive": true,
+        "upper_inclusive": false
+      },
+      {
+        "group": "F2",
+        "lower": 660,
+        "upper": 680,
+        "lower_inclusive": true,
+        "upper_inclusive": false
+      },
+      {
+        "group": "F3",
+        "lower": 680,
+        "upper": 700,
+        "lower_inclusive": true,
+        "upper_inclusive": false
+      },
+      {
+        "group": "F4",
+        "lower": 700,
+        "upper": 720,
+        "lower_inclusive": true,
+        "upper_inclusive": false
+      },
+      {
+        "group": "F5",
+        "lower": 720,
+        "upper": 740,
+        "lower_inclusive": true,
+        "upper_inclusive": false
+      },
+      {
+        "group": "F6",
+        "lower": 740,
+        "upper": 850,
+        "lower_inclusive": true,
+        "upper_inclusive": true
+      }
+    ],
+    "group_id_encoding": "JSON数组[\"main\",用途原值,信用分档]，不得简单字符串拼接",
+    "grid_rule": "三年清洗后用途并集加__MISSING__，与固定六档作笛卡尔积；空组合保留",
+    "expected_grid_rows_per_year": 90
+  }
+}
