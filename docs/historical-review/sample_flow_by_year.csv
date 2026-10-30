@@ -1,0 +1,13 @@
+﻿year,full_batch,terminal,nonterminal,formal_sample,other_terminal_excluded,terminal_share,snapshot_confirmed,historical_label_timing_confirmed,independent_admitted
+2007,603,603,0,599,4,1.0,False,False,False
+2008,2393,2393,0,2393,0,1.0,False,False,False
+2009,5281,5281,0,5281,0,1.0,False,False,False
+2010,12537,12537,0,12537,0,1.0,False,False,False
+2011,21721,21721,0,21721,0,1.0,False,False,False
+2012,53367,53367,0,53367,0,1.0,False,False,False
+2013,134814,134804,10,134804,0,0.999925823727506,False,False,False
+2014,235629,223102,12527,223102,0,0.9468359157828621,False,False,False
+2015,421095,375545,45550,375543,2,0.891829634643014,False,False,False
+2016,434407,293095,141312,293057,38,0.6747013745174456,False,False,False
+2017,443579,169300,274279,169117,183,0.38166820340908836,False,False,False
+2018,495242,56311,438931,56160,151,0.11370400733378833,False,False,False

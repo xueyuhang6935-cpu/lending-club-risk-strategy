@@ -1,0 +1,8 @@
+{
+  "year": 2015,
+  "amount_definition": "loan_amnt original units; adjusted requested amount proxy, not verified funded principal or EAD",
+  "in_good": 303833025.0,
+  "in_bad": 106310950.0,
+  "out_good": 253067825.0,
+  "out_bad": 114066875.0
+}

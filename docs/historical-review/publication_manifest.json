@@ -1,0 +1,60 @@
+{
+  "updated_at": "2026-10-30",
+  "scope": "aggregate_historical_research_only",
+  "independent_validation_complete": false,
+  "actual_returns_evaluated": false,
+  "files": {
+    "recounted_metrics.csv": {
+      "bytes": 789,
+      "sha256": "0278ec89f737134d57b20d5a171eb0fc61713bd894dbcf1d5383f200fcdcbac3"
+    },
+    "exchange_recount.csv": {
+      "bytes": 359,
+      "sha256": "f67f5870f275c0ff1bc84cc3e351c25acb15580a03ef0f648fbc4ed78f6e1dcc"
+    },
+    "sample_flow_by_year.csv": {
+      "bytes": 878,
+      "sha256": "950b0e24641f4c2e7c4acd4d36bc61271cdadc3328b2123f2dab9c145ae3638d"
+    },
+    "amount_proxy_comparison.csv": {
+      "bytes": 412,
+      "sha256": "4434e5b92dcad4a0a225875f7fa9aece01c3ef850e5d637987efa8963bfb5a39"
+    },
+    "economic_scenarios_2014.csv": {
+      "bytes": 9738,
+      "sha256": "92f6fd9c578418cef21deebeb2fccba6fdf41c9908f2bb62988bd6e14e6c8e2c"
+    },
+    "economic_scenarios_2015.csv": {
+      "bytes": 9706,
+      "sha256": "a58a847fcfe537cdaff757c2b3a78d77c74dca7b453096b279f2b053464c3db3"
+    },
+    "economic_break_even_2014.csv": {
+      "bytes": 2327,
+      "sha256": "7f50996cf0518da169db459d41433c2e1ee8176dd4504b568006c0c78f3cc448"
+    },
+    "economic_break_even_2015.csv": {
+      "bytes": 2322,
+      "sha256": "50e55ae8f8fea62f2991a1a1842b2d7759ea269761cee915ca3f00ccee91a74c"
+    },
+    "economic_exchange_2014.json": {
+      "bytes": 243,
+      "sha256": "2dcdf732b468e40cc4d36a6d89bae9aff22503e575397045964bc960fb6954f6"
+    },
+    "economic_exchange_2015.json": {
+      "bytes": 245,
+      "sha256": "5379f7eeafbba755d748ac56479adecc3715b3826e9fc7c55397ee9138ec8b16"
+    },
+    "current_admission_request.json": {
+      "bytes": 2415,
+      "sha256": "96ccbb91130357b7cb953dbcadece6aac8807555c595a4a945f7c211e8f3af99"
+    },
+    "经济情景分析.md": {
+      "bytes": 3873,
+      "sha256": "f39e16ce61743d6c98f57599f37ac4b53535e3ac3f476100d445eff14d7fd8f9"
+    },
+    "README.md": {
+      "bytes": 3859,
+      "sha256": "437e2640f94a6c950ea8862a4b5d7546d6dd767533ada96e404ce8e3ad519b4e"
+    }
+  }
+}

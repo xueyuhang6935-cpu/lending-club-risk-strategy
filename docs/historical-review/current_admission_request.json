@@ -1,0 +1,82 @@
+{
+  "target": "contract_final_chargeoff",
+  "evidence": {
+    "same_population": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "origination_features": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "stable_loan_ids": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "full_batch_including_nonterminal": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "snapshot_date": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "outcome_occurrence_dates": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "outcome_record_available_dates": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "evaluation_observation_sufficient": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "training_information_available_before_evaluation": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "no_prior_outcome_based_selection": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    },
+    "model_and_rules_frozen": {
+      "confirmed": false,
+      "path": "",
+      "sha256": "",
+      "review_note": "目前缺少合格独立批次/可靠时点的完整证据",
+      "reviewed_by": ""
+    }
+  }
+}
